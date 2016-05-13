@@ -1,0 +1,80 @@
+header {
+	text-align:center;
+	max-width=900px;
+	height:45px;
+	background:#a64dff;
+	
+}
+
+.menu .menu_name {
+	margin-top:-5px;
+	margin-left:10px;
+	float:left;
+	list-style:none;
+	font-family:impact;
+	float:left;
+	color:white;
+	font-size:20px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	text-decoration:transparent;
+	position:relative;
+}
+.menu li a:hover {
+	display:inline-block;
+	background:#eeeeee;
+	color:#9ea1b4;
+	font-size:20px;
+	height:35px;
+	padding-left:10px;
+	padding-right:10px;
+	list-style:none;
+}
+
+.menu_name_menu {
+	position:absolute;
+	top:50px;
+	left:0px;
+	float:left;
+	list-style:none;
+	color:#9ea1b4;
+	background-color:#eeeeee;
+	width:670px;
+	height:30px;
+	padding:10px;
+	
+	text-decoration:none;
+	list-style:none;
+	display:none;
+}
+.menu_name_menu a{
+	font-family: 'Raleway', sans-serif;
+	float:left;
+	list-style:none;
+	color:#9ea1b4;
+	background-color:#eeeeee;
+	padding-right:10px;
+	padding-left:10px;
+	text-decoration:none;
+	list-style:none;
+	height:30px;
+}
+li:hover .menu_name_menu {
+	display:block;
+	
+}
+.menu_name_menu:hover {
+	display:inline-block;
+	background:#eeeeee;
+	color:#9ea1b4;
+	font-size:20px;
+	list-style:none;	
+}
+div {
+	box-shadow: 0 5px 5px #333;
+	text-align:center;
+	max-width=900px;
+	height:50px;
+	background:#eeeeee;
+}
